@@ -1,0 +1,348 @@
+<html>
+
+<head>
+  <title>What's For Dinner</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <!-- ====================================================== -->
+  <link rel="stylesheet" href="../css/all.min.css">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/style-index.css">
+  <link rel="stylesheet" href="../css/index-media.css">
+  <!-- ======================================================= -->
+</head>
+
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid container-60px pt-3 pb-3 bg-white  border border-bottom shadow-sm">
+      <div class="d-flex">
+        <span class="p-3 bg-1 rounded-circle text-white"><i class="fas fa-utensils"></i></span>
+        <div class="ps-3">
+          <h1 class="fw-bold fs-24px">What's For Dinner</h1>
+          <p class="text-black-50">Your daily meal inspiration</p>
+        </div>
+      </div>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse  justify-content-end" id="navbarNav">
+       
+          <button class="border-0 bg-transparent fs-4 ps-3 hover-1"><i class="fa-solid fa-bookmark"></i></button>
+        <button class="border-0 bg-transparent fs-4 ps-3 hover-1"><i class="fas fa-history"></i></button>
+        <button class="border-0 bg-transparent fs-4 ps-3 hover-1"><i class="fas fa-gear"></i></button>
+        <button class="b-1 w-50px rounded-circle overflow-hidden ms-3"><img src="../img/avatar-4.jpg " alt=""></button>
+      
+      </div>
+    </div>
+  </nav>
+
+
+  <section>
+    <div class="container-fluid container-60px bg-2 pt-4 pb-5">
+      <div class="sec d-flex flex-wrap col-12 rounded-5  overflow-hidden box-sh-1">
+        <div class="img col-sm-12 col-lg-5 position-relative">
+          <div id="imgMeals">
+            <img src="../img/photo-1603133872878-684f208fb84b.jpg" alt="" class="img-2 ">
+          </div>
+
+          <div class="p-2 rounded-5 position-absolute top-0 start-0 bg-white mt-4 ms-4 d-flex align-items-center"><i
+              class="fas fa-star color-10 me-2"></i>
+            <p class="fs-5 fw-bold me-2" id="str">4.5</p>
+            <p class="fs-12px text-black-50 me-2">(<span id="reviews">324</span> reviews)</p>
+          </div>
+
+          <div class="d-flex justify-content-around bg-white  p-4 rounded-4 pos-1">
+            <div class="text-center">
+              <span class="color-1 fs-3"><i class="fas fa-clock"></i></span>
+              <p class="text-black-50 fs-12px fw-bold">Prep Time</p>
+              <p class="fw-bold" id="PrepTime">15 min</p>
+            </div>
+
+            <div class="text-center">
+              <span class="color-2 fs-3"><i class="fas fa-fire-burner"></i></span>
+              <p class="text-black-50 fs-12px fw-bold">Cook Time</p>
+              <p class="fw-bold" id="cookTime">15 min</p>
+            </div>
+
+            <div class="text-center">
+              <span class="color-3 fs-3"><i class="fas fa-users"></i></span>
+              <p class="text-black-50 fs-12px fw-bold">Servings</p>
+              <p class="fw-bold" id="servings">4 people</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="cont col-sm-12 col-lg-7 bg-white p-5 overflow-x-auto">
+          <div>
+            <div class="pb-3">
+              <span class="p-1 bg-3 ps-2 pe-2 rounded-4 me-3 color-4" id="level">Easy</span>
+              <span class="p-1 bg-4 pe-2 ps-2 rounded-4 color-5" id="nation">Asian</span>
+            </div>
+
+            <div class="d-flex justify-content-between align-items-center">
+              <div>
+                <h3 class="fw-bold fs-1" id="name">Chicken Stir-Fry</h3>
+                <p class="fs-5 text-black-50" id="descrp">Quick and healthy stir-fry with colorful vegetables</p>
+              </div>
+
+              <div class="d-flex">
+                <div class="w-50px h-50px d-flex justify-content-center align-items-center rounded-3 bg-5 color-2 me-2 hover-2"><i class="fa-solid fa-bookmark"></i></div>
+                <div class="w-50px h-50px d-flex justify-content-center align-items-center rounded-3 bg-5 color-2 hover-2"><i class="fas fa-share-nodes"></i></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="pt-5">
+            <nav>
+              <div class="nav nav-tabs justify-content-between " id="nav-tab" role="tablist">
+                <button class="nav-link active fw-bold mb-3  border-0" id="nav-home-tab" data-bs-toggle="tab"
+                  data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true"><i
+                    class="fas fa-list-check"></i> Ingredients</button>
+
+                <button class="nav-link  fw-bold mb-3  border-0" id="nav-profile-tab" data-bs-toggle="tab"
+                  data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile"
+                  aria-selected="false"><i class="fas fa-book-open"></i> Instructions</button>
+
+                <button class="nav-link fw-bold mb-3  border-0" id="nav-contact-tab" data-bs-toggle="tab"
+                  data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact"
+                  aria-selected="false"><i class="fas fa-chart-pie"></i> Nutrition</button>
+
+                <button class="nav-link fw-bold mb-3  border-0" id="nav-contact-tab-2" data-bs-toggle="tab"
+                  data-bs-target="#nav-contact-2" type="button" role="tab" aria-controls="nav-contact-2"
+                  aria-selected="false"><i class="fas fa-lightbulb"></i> Chef's Tips</button>
+              </div>
+            </nav>
+
+            <div class="tab-content mt-3 " id="nav-tabContent">
+              <div class="tab-pane fade show active " id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab"
+                tabindex="0">
+                <div class="bg-5 rounded-4 p-3 h-350px overflow-x-auto " id="Ingredients">
+                  <div class="d-flex align-items-center pb-2">
+                    <div
+                      class="w-30px justify-content-center align-items-center d-flex h-30px rounded-circle bg-6 text-white">
+                      1</div>
+                    <p class="color-6 ms-3 fw-bold">500g ground beef</p>
+                  </div>
+                   <div class="d-flex align-items-center pb-2">
+                    <div
+                      class="w-30px justify-content-center align-items-center d-flex h-30px rounded-circle bg-6 text-white">
+                      2</div>
+                    <p class="color-6 ms-3 fw-bold">8 taco shells</p>
+                  </div>
+                  <div class="d-flex align-items-center pb-2">
+                    <div
+                      class="w-30px justify-content-center align-items-center d-flex h-30px rounded-circle bg-6 text-white">
+                      3</div>
+                    <p class="color-6 ms-3 fw-bold">1 onion, diced</p>
+                  </div>
+                  <div class="d-flex align-items-center pb-2">
+                    <div
+                      class="w-30px justify-content-center align-items-center d-flex h-30px rounded-circle bg-6 text-white">
+                      4</div>
+                    <p class="color-6 ms-3 fw-bold">2 tablespoons taco seasoning</p>
+                  </div>
+                  <div class="d-flex align-items-center pb-2">
+                    <div
+                      class="w-30px justify-content-center align-items-center d-flex h-30px rounded-circle bg-6 text-white">
+                      5</div>
+                    <p class="color-6 ms-3 fw-bold">Shredded lettuce</p>
+                  </div>
+                  <div class="d-flex align-items-center pb-2">
+                    <div
+                      class="w-30px justify-content-center align-items-center d-flex h-30px rounded-circle bg-6 text-white">
+                      6</div>
+                    <p class="color-6 ms-3 fw-bold">Diced tomatoes</p>
+                  </div>
+                  <div class="d-flex align-items-center pb-2">
+                    <div
+                      class="w-30px justify-content-center align-items-center d-flex h-30px rounded-circle bg-6 text-white">
+                      7</div>
+                    <p class="color-6 ms-3 fw-bold">Shredded cheddar cheese</p>
+                  </div>
+                  <div class="d-flex align-items-center pb-2">
+                    <div
+                      class="w-30px justify-content-center align-items-center d-flex h-30px rounded-circle bg-6 text-white">
+                      8</div>
+                    <p class="color-6 ms-3 fw-bold">Sour cream</p>
+                  </div>
+                  <div class="d-flex align-items-center pb-2">
+                    <div
+                      class="w-30px justify-content-center align-items-center d-flex h-30px rounded-circle bg-6 text-white">
+                      9</div>
+                    <p class="color-6 ms-3 fw-bold">Salsa</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane fade h-350px overflow-x-auto" id="nav-profile" role="tabpanel"
+                aria-labelledby="nav-profile-tab" tabindex="0">
+                <div class="d-flex align-items-center pb-3">
+                  <div
+                    class="w-50px bg-6 h-50px rounded-4 fs-4 text-white fw-bold d-flex justify-content-center align-items-center">
+                    1</div>
+                  <p class="fs-14px color-6 ps-3">Heat a large skillet over medium-high heat. Cook ground beef until
+                    browned.</p>
+                </div>
+                <div class="d-flex align-items-center pb-3">
+                  <div
+                    class="w-50px bg-6 h-50px rounded-4 fs-4 text-white fw-bold d-flex justify-content-center align-items-center">
+                    2</div>
+                  <p class="fs-14px color-6 ps-3">Add diced onion and cook until softened, about 5 minutes.</p>
+                </div>
+                <div class="d-flex align-items-center pb-3">
+                  <div
+                    class="w-50px bg-6 h-50px rounded-4 fs-4 text-white fw-bold d-flex justify-content-center align-items-center">
+                    3</div>
+                  <p class="fs-14px color-6 ps-3">Stir in taco seasoning and 1/2 cup water. Simmer for 10 minutes.</p>
+                </div>
+                <div class="d-flex align-items-center pb-3">
+                  <div
+                    class="w-50px bg-6 h-50px rounded-4 fs-4 text-white fw-bold d-flex justify-content-center align-items-center">
+                    4</div>
+                  <p class="fs-14px color-6 ps-3">Warm taco shells according to package directions.</p>
+                </div>
+                <div class="d-flex align-items-center pb-3">
+                  <div
+                    class="w-50px bg-6 h-50px rounded-4 fs-4 text-white fw-bold d-flex justify-content-center align-items-center">
+                    5</div>
+                  <p class="fs-14px color-6 ps-3">Fill each shell with seasoned beef.</p>
+                </div>
+                <div class="d-flex align-items-center pb-3">
+                  <div
+                    class="w-50px bg-6 h-50px rounded-4 fs-4 text-white fw-bold d-flex justify-content-center align-items-center">
+                    6</div>
+                  <p class="fs-14px color-6 ps-3">Top with lettuce, tomatoes, cheese, sour cream, and salsa. Serve
+                    immediately.</p>
+                </div>
+              </div>
+
+              <div class="tab-pane fade h-350px overflow-x-auto" id="nav-contact" role="tabpanel"
+                aria-labelledby="nav-contact-tab" tabindex="0">
+                <div class="d-flex col-12 flex-wrap " id="Nutrition">
+                 <div class="p-2 col-md-6 col-sm-12 ">
+                    <div class="p-3 bg-7 rounded-4  d-flex justify-content-between align-items-center">
+                      <div class="d-flex align-items-center">
+                        <div
+                          class="w-50px h-50px bg-5 rounded-4 d-flex justify-content-center align-items-center color-1">
+                          <i class="fas fa-fire"></i>
+                        </div>
+                        <p class="ps-3 fw-bold">Calories</p>
+                      </div>
+                      <p class="fs-5 fw-bold" id="Calories">320 kcal</p>
+                    </div>
+                  </div>
+
+                  <div class="p-2 col-md-6 col-sm-12 ">
+                    <div class="p-3 bg-7 rounded-4  d-flex justify-content-between align-items-center">
+                      <div class="d-flex align-items-center">
+                        <div
+                          class="w-50px h-50px bg-9 rounded-4 d-flex justify-content-center align-items-center color-8">
+                          <i class="fas fa-dumbbell"></i>
+                        </div>
+                        <p class="ps-3 fw-bold">Protein</p>
+                      </div>
+                      <p class="fs-5 fw-bold" id="protein">38 g</p>
+                    </div>
+                  </div>
+
+                  <div class="p-2 col-md-6 col-sm-12 ">
+                    <div class="p-3 bg-7 rounded-4  d-flex justify-content-between align-items-center">
+                      <div class="d-flex align-items-center">
+                        <div
+                          class="w-50px h-50px bg-8 rounded-4 d-flex justify-content-center align-items-center color-7">
+                          <i class="fas fa-wheat-awn"></i>
+                        </div>
+                        <p class="ps-3 fw-bold">Carbohydrates</p>
+                      </div>
+                      <p class="fs-5 fw-bold" id="Carbohydrates">42 g</p>
+                    </div>
+                  </div>
+
+                  <div class="p-2 col-md-6 col-sm-12 ">
+                    <div class="p-3 bg-7 rounded-4  d-flex justify-content-between align-items-center">
+                      <div class="d-flex align-items-center">
+                        <div
+                          class="w-50px h-50px bg-10 rounded-4 d-flex justify-content-center align-items-center color-2">
+                          <i class="fas fa-droplet"></i>
+                        </div>
+                        <p class="ps-3 fw-bold">Fat</p>
+                      </div>
+                      <p class="fs-5 fw-bold" id="fat">35 g</p>
+                    </div>
+                  </div>
+
+                  <div class="p-2 col-md-6 col-sm-12 ">
+                    <div class="p-3 bg-7 rounded-4  d-flex justify-content-between align-items-center">
+                      <div class="d-flex align-items-center">
+                        <div
+                          class="w-50px h-50px bg-11 rounded-4 d-flex justify-content-center align-items-center color-4">
+                          <i class="fas fa-seedling"></i>
+                        </div>
+                        <p class="ps-3 fw-bold">Fiber</p>
+                      </div>
+                      <p class="fs-5 fw-bold" id="fiber">2 g</p>
+                    </div>
+                  </div>
+
+                  <div class="p-2 col-md-6 col-sm-12 ">
+                    <div class="p-3 bg-7 rounded-4  d-flex justify-content-between align-items-center">
+                      <div class="d-flex align-items-center">
+                        <div
+                          class="w-50px h-50px bg-10 rounded-4 d-flex justify-content-center align-items-center color-9">
+                          <i class="fas fa-box"></i>
+                        </div>
+                        <p class="ps-3 fw-bold">Sodium</p>
+                      </div>
+                      <p class="fs-5 fw-bold" id="sodium">920 gm</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane fade h-350px overflow-xcol-md-6 col-sm-12" id="nav-contact-2" role="tabpanel"
+                aria-labelledby="nav-contact-tab-2" tabindex="0">
+                <div class="w-100 p-4 rounded-4 bg-2 bor-1 d-flex align-items-center mb-3">
+                  <span class="p-1 rounded-circle bg-12 text-white"><i class="fas fa-check"></i></span>
+                  <p class="ps-3">Cut all ingredients before starting to cook</p>
+                </div>
+                <div class="w-100 p-4 rounded-4 bg-2 bor-1 d-flex align-items-center mb-3">
+                  <span class="p-1 rounded-circle bg-12 text-white"><i class="fas fa-check"></i></span>
+                  <p class="ps-3">Cut all ingredients before starting to cook</p>
+                </div>
+                <div class="w-100 p-4 rounded-4 bg-2 bor-1 d-flex align-items-center mb-3">
+                  <span class="p-1 rounded-circle bg-12 text-white"><i class="fas fa-check"></i></span>
+                  <p class="ps-3">Cut all ingredients before starting to cook</p>
+                </div>
+                <div class="w-100 p-4 rounded-4 bg-2 bor-1 d-flex align-items-center mb-3">
+                  <span class="p-1 rounded-circle bg-12 text-white"><i class="fas fa-check"></i></span>
+                  <p class="ps-3">Cut all ingredients before starting to cook</p>
+                </div>
+              </div>
+
+              <div class="line mt-4 mb-3"></div>
+
+              <button
+              onclick="(change())"
+               class="border-0 but-1 rounded-4 text-white" ><i class="fas fa-arrows-rotate"></i> Try Another
+                Recipe</button>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================== -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+    <script src="../js/index.js"></script>
+</body>
+
+</html>
